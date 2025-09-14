@@ -16,7 +16,7 @@ int main(){
     if(i==guess && entry ==no1 ){
         printf("you win on last try");
     }
-    else if (i==guess){
+    else if (i==guess&&entry!=no1){
         printf("you lose");
     }
     else if(entry<1||entry>100){
