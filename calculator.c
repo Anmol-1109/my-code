@@ -14,26 +14,33 @@ int main(){
     printf("3. for division\n");
     printf("4. for multiplication\n");
     scanf("%d",&op);
-    if(op==1){
+    switch(op){
+
+    case 1:
         ans = num1 +num2;
         printf("%f",ans);
-    }
-     else if(op==2){
+        break;
+    
+    case 2 :
         ans = num1 -num2 ;
         printf("%f",ans);
-    }
-    else if(op==3){
+        break;
+    
+   case 3 :
         ans=num1/num2;
         printf("%f",ans);
-    }
-    else if(op==4){
+        break;
+    
+   case 4 :
         ans = num1*num2;
         printf("%f",ans);
-    } 
-    else {
+        break;
+    
+    default :
         printf("invalid choice");
-    }   
+        break;
+       
 
-    }
+}}
 
 
