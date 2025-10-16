@@ -14,5 +14,12 @@ int ncr(int n,int r){
     return t; 
 }
 int main(){
-    cout <<fact(6);
+    int n;
+    int r;
+    cout <<"enter no of objects ";
+    cin>>n;
+    cout<<"enter no of selections";
+    cin>>r;
+    cout<<"the no of ways to select "<<r<<" objects from "<<n<<" objects is "<<ncr(n,r);
+
 }
